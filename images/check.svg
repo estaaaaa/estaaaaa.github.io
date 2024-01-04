@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144.266" height="140.266" viewBox="0 0 144.266 140.266">
+  <defs>
+    <filter id="Icon_awesome-check-circle" x="0" y="0" width="144.266" height="140.266" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#29251d"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-check-circle)">
+    <path id="Icon_awesome-check-circle-2" data-name="Icon awesome-check-circle" d="M137.829,69.2A68.633,68.633,0,1,1,69.2.563,68.633,68.633,0,0,1,137.829,69.2ZM61.257,105.536l50.921-50.921a4.428,4.428,0,0,0,0-6.262l-6.262-6.262a4.428,4.428,0,0,0-6.262,0L58.126,83.619,38.737,64.23a4.428,4.428,0,0,0-6.262,0l-6.262,6.262a4.428,4.428,0,0,0,0,6.262l28.782,28.782a4.428,4.428,0,0,0,6.262,0Z" transform="translate(-0.56 -0.56)" fill="#cdd27e"/>
+  </g>
+</svg>
