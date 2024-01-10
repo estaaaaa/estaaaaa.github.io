@@ -405,6 +405,7 @@ img {
   box-shadow: 2.4rem 2.4rem 0 #29251d;
   text-align: center;
   transition: box-shadow 0.2s ease; /* Add transition for a smooth effect */
+  padding: 10px;
 }
 
 .portfolio_box a {
@@ -421,7 +422,6 @@ img {
   font-weight: 700;
   color: #29251d;
   margin: 0;
-  letter-spacing: -1rem;
 }
 
 .portfolio_box:hover {
