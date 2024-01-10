@@ -235,10 +235,11 @@ img {
 
 .showcase_item {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 200px); /* Change the width as needed */
     grid-gap: 1.5rem;
     padding: 5rem 0 9rem;
 }
+
 
 .showcase_inner img {
     width: 100%;
