@@ -258,7 +258,6 @@ img {
   object-fit: cover; /* This will make sure the image covers the entire container */
   border-radius: 1rem;
 }
-
 .showcase_btn a {
   font-family: "Shippori Mincho", serif;
   font-size: 8.6rem;
@@ -269,15 +268,29 @@ img {
   display: inline-block;
   padding: 0.5rem 8rem 0.8rem;
   border-radius: 1.2rem;
-  box-shadow: 2.2rem 2.2rem 0rem #29251d;
-  transition: 0.2s all ease;
   position: relative;
+  overflow: hidden;
+}
+
+.showcase_btn a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #cdd27e;
+  box-shadow: 2.2rem 2.2rem 0rem #29251d;
+  transform: translate(0, 0);
+  transition: transform 0.2s ease;
+}
+
+.showcase_btn a:hover::before {
+  transform: translate(2px, 2px);
 }
 
 .showcase_btn a:hover {
   opacity: 0.85;
-  transform: translateY(2px); /* Add a small vertical shift on press */
-  box-shadow: 1.8rem 1.8rem 0rem #29251d; /* Adjust shadow on press */
 }
 
 /*==================== footer_area start =====================*/
