@@ -409,6 +409,10 @@ img {
   text-decoration: none; /* Remove default link underline */
 }
 
+.portfolio_box:hover {
+  opacity: 0.85;
+}
+
 .portfolio_box h4 {
   font-family: "Shippori Mincho", serif;
   font-size: 2.8rem; /* Adjust font size as needed */
