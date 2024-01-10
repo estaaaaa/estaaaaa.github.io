@@ -271,10 +271,13 @@ img {
   border-radius: 1.2rem;
   box-shadow: 2.2rem 2.2rem 0rem #29251d;
   transition: 0.2s all ease;
+  position: relative;
 }
 
 .showcase_btn a:hover {
   opacity: 0.85;
+  transform: translateY(2px); /* Add a small vertical shift on press */
+  box-shadow: 1.8rem 1.8rem 0rem #29251d; /* Adjust shadow on press */
 }
 
 /*==================== footer_area start =====================*/
