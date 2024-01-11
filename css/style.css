@@ -98,32 +98,20 @@ img {
   left: 0.8rem;
 }
 
-.main_wrapper {
-  transition: all 0.3s ease;
+@keyframes breathing {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-.main_wrapper.expanded {
-  width: 100%; /* Set the desired expanded width */
-}
-
-.main_shape {
-  display: flex;
-  justify-content: space-between;
-}
-
-.shape_circle {
-  transition: all 0.3s ease;
-}
-
-.main.expanded .shape_circle {
-  width: 15rem; /* Set the desired expanded size */
-  height: 15rem;
-}
-
-.main.expanded .shape_circle img {
-  width: 7.8rem; /* Set the desired expanded size for the image */
-  top: 0.3rem;
-  left: 0.4rem;
+.shape_circle.shape1 img {
+  animation: breathing 4s infinite alternate; /* Adjust the duration as needed */
 }
 
 .shape3 {
