@@ -99,19 +99,16 @@ img {
 }
 
 @keyframes breathing {
-  0% {
-    transform: scale(1);
-  }
-  50% {
+  0%, 100% {
     transform: scale(0.8);
   }
-  100% {
+  50% {
     transform: scale(1);
   }
 }
 
 .shape_circle.shape1 img {
-  animation: breathing infinite alternate; /* Adjust the duration as needed */
+  animation: breathing 4s infinite alternate; /* Adjust the duration as needed */
 }
 
 .shape3 {
