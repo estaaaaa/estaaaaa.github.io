@@ -212,6 +212,11 @@ img {
 
 .main_banner img {
   width: 100%;
+  background-image: url(../images/showcase_bg.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 5rem 0 12rem;
 }
 
 .main_logo img {
@@ -224,13 +229,6 @@ img {
 }
 
 /*================== showcase_area start ==================*/
-.showcase_area {
-  background-image: url(../images/showcase_bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 5rem 0 12rem;
-}
 
 .showcase_main {
   max-width: 124rem;
@@ -271,11 +269,11 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* This will make sure the image covers the entire container */
-  border-radius: 1rem;
+  border-radius: 3rem;
 }
 .showcase_btn a {
   font-family: "Shippori Mincho", serif;
-  font-size: 10rem;
+  font-size: 8rem;
   font-weight: 700;
   color: #29251d;
   letter-spacing: -0.3rem;
@@ -290,6 +288,7 @@ img {
 
 .showcase_btn a:hover {
   opacity: 0.85;
+  box-shadow: none; /* Make the box shadow disappear on hover */
 }
 
 /*==================== footer_area start =====================*/
@@ -427,6 +426,7 @@ img {
 
 .portfolio_box:hover {
   opacity: 0.85;
+  box-shadow: none; /* Make the box shadow disappear on hover */
 }
 
 .portfolio_box h4 {
@@ -435,10 +435,6 @@ img {
   font-weight: 700;
   color: #29251d;
   margin: 0;
-}
-
-.portfolio_box:hover {
-  box-shadow: none; /* Make the box shadow disappear on hover */
 }
 
 .portfolio_main2 {
@@ -497,6 +493,7 @@ img {
 
 .portfolio_btn a:hover {
   opacity: 0.85;
+  box-shadow: none; /* Make the box shadow disappear on hover */
 }
 
 .portname2 {
@@ -599,11 +596,10 @@ img {
 }
 
 .carousel-control-prev-icon,
-.carousel-control-next-icon{
+.carousel-control-next-icon {
   filter: invert(100%);
   height: 100px;
   width: 100px;
-
 }
 
 .carousel {
@@ -617,6 +613,10 @@ img {
 
 .carousel-inner {
   display: flex;
+}
+
+.portfolio_sample {
+  margin-bottom: 20px; /* Adjust margin as needed for spacing between items */
 }
 
 /*=================== about page start =====================*/
@@ -815,6 +815,7 @@ img {
 
 .contact_btn button:hover {
   opacity: 0.85;
+  box-shadow: none; /* Make the box shadow disappear on hover */
 }
 
 .contact_right {
