@@ -99,10 +99,11 @@ img {
 }
 
 @keyframes breathing {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(0.8);
   }
-  
+
   50% {
     transform: scale(1);
   }
@@ -291,7 +292,6 @@ img {
   opacity: 0.85;
 }
 
-
 /*==================== footer_area start =====================*/
 .footer_area {
   background: #4c6394;
@@ -463,7 +463,7 @@ img {
   font-size: 18.9rem;
   font-weight: 700;
   line-height: 1;
-  color: #2f3774;
+  color: rgb(47, 55, 116);
   margin: 0;
   text-align: center;
   letter-spacing: -2.4rem;
@@ -477,23 +477,19 @@ img {
   width: 100%;
 }
 
-.portfolio3 {
-  margin-top: -36rem;
-}
-
 .portfolio_btn {
   padding: 3rem 0;
 }
 
 .portfolio_btn a {
   font-family: "Shippori Mincho", serif;
-  font-size: 6.6rem;
+  font-size: 5rem;
   font-weight: 700;
   color: #29251d;
   letter-spacing: -0.3rem;
   background: #cdd27e;
   display: inline-block;
-  padding: 0.5rem 10rem 0.8rem;
+  padding: 0.5rem 5rem 0.8rem;
   border-radius: 1.2rem;
   box-shadow: 2.2rem 2.2rem 0rem #29251d;
   transition: 0.2s all ease;
@@ -547,50 +543,80 @@ img {
 }
 
 .port4_main {
-  background: rgba(255, 255, 255, 0.85);
-  max-width: 149.6rem;
+  background: rgb(47, 55, 116);
+  max-width: fit-content; /* Set max-width to fit content */
   width: 100%;
   margin: 0 auto;
   position: relative;
   z-index: 99;
-  padding: 6.4rem 5.6rem;
+  padding: 10px;
   border-radius: 4rem;
 }
 
 .port4_left img {
   width: 100%;
+  border-radius: 8px;
+}
+
+.port4_right {
+  padding: 20px;
 }
 
 .port4_right h3 {
   font-family: "Shippori Mincho", serif;
   font-size: 11.3rem;
   font-weight: 700;
-  color: #4c6394;
-  letter-spacing: -1.5rem;
+  color: #cdd27e;
+  letter-spacing: -1rem;
+  margin-bottom: 0;
 }
 
 .port4_right h4 {
   max-width: 56rem;
   width: 100%;
   font-size: 4.7rem;
-  color: #4c6394;
-  margin: 5.5rem 0 8.5rem;
+  color: #cdd27e;
+  margin: 2rem 0 1rem;
 }
 
 .port4_right p {
   font-size: 3.6rem;
-  color: #4c6394;
+  color: #cdd27e;
   margin-bottom: 0;
 }
 
 .port4_btn {
-  padding: 12rem 0 0;
+  color: #cdd27e;
+  padding: 1rem 0 0;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .port4_btn a {
   font-family: "Shippori Mincho", serif;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #29251d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  filter: invert(100%);
+  height: 100px;
+  width: 100px;
+
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+.carousel img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-inner {
+  display: flex;
 }
 
 /*=================== about page start =====================*/

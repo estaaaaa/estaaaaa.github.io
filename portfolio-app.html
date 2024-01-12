@@ -1,153 +1,481 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <!-- Meta setup -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="keywords" content="">
-        <meta name="decription" content="">
-        <meta name="designer" content="">
-        
-        <!-- Title -->
-        <title>Esta Puah - App Development </title>
-        
-        <!-- Fav Icon -->
-        <link rel="icon" href="images/favicon.png" />   
+<head>
+    <!-- Meta setup -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="" />
+    <meta name="decription" content="" />
+    <meta name="designer" content="" />
 
-        <!-- Include Bootstrap -->
-        <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Title -->
+    <title>Esta Puah - App Development</title>
 
-        <!-- Main StyleSheet -->
-        <link rel="stylesheet" href="css/style.css" />  
-        
-        <!-- Responsive CSS -->
-        <link rel="stylesheet" href="css/responsive.css" /> 
-        
-    </head>
-    <body>
-        <!--[if lte IE 9]> <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p><![endif]-->
+    <!-- Fav Icon -->
+    <link rel="icon" href="images/favicon.png" />
 
-        <!-- main_wrapper start -->
-        <main class="main_wrapper">
-            <div class="main_shape">
-                <div class="shape_circle shape1">
-                    <a href="index.html">
-                      <img src="images/shape.svg" alt="" />
-                    </a>
-                  </div>
-                  
-                <div class="shape_circle shape3">
-                    <img src="images/shape.svg" alt="">
-                </div>
-                <div class="shape_circle shape4">
-                    <img src="images/shape.svg" alt="">
-                </div>
-                <div class="humber_btn">
-                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                        <img src="images/humbergar.svg" alt="">
-                    </button>
-                </div>
+    <!-- Include Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- Main StyleSheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+
+</head>
+<body>
+
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- main_wrapper start -->
+    <main class="main_wrapper">
+        <div class="main_shape">
+            <div class="shape_circle shape1">
+                <a href="index.html">
+                    <img src="images/shape.svg" alt="" />
+                </a>
             </div>
 
-            <!-- offcanvas start -->
-            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-body">
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <div class="shape_circle shape3">
+                <img src="images/shape.svg" alt="" />
+            </div>
+            <div class="shape_circle shape4">
+                <img src="images/shape.svg" alt="" />
+            </div>
+            <div class="humber_btn">
+                <button
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample"
+                    aria-controls="offcanvasExample"
+                >
+                    <img src="images/humbergar.svg" alt="" />
+                </button>
+            </div>
+        </div>
+
+        <!-- offcanvas start -->
+        <div
+            class="offcanvas offcanvas-top"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+        >
+            <div class="offcanvas-body">
+                <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                ></button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- offcanvas end -->
+
+        <!-- portfolio_area start -->
+        <div class="portfolio_area">
+            <div class="portfolio_main2">
+                <div class="portfolio_name portname2">
+                    <h3>
+                        App <br />
+                        Development
+                    </h3>
+                </div>
+
+                <div class="portfolio_projects">
+                    <div class="row">
+
+                        <!-- Portfolio Sample 1 -->
+                        <div class="col-6">
+                            <div class="portfolio_sample">
+                                <img src="images/app dev/billsplit.PNG" alt="" />
+                                <div class="portfolio_btn text-center">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Sample 2 -->
+                        <div class="col-6">
+                            <div class="portfolio_sample">
+                                <img src="images/app dev/moviereview.PNG" alt="" />
+                                <div class="portfolio_btn text-center">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal2">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Sample 3 -->
+                        <div class="col-6">
+                            <div class="portfolio_sample">
+                                <img src="images/app dev/movielist.PNG" alt="" />
+                                <div class="portfolio_btn text-center">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal3">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Sample 4 -->
+                        <div class="col-6">
+                            <div class="portfolio_sample">
+                                <img src="images/app dev/shippingcost.PNG" alt="" />
+                                <div class="portfolio_btn text-center">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal4">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Sample 5 -->
+                        <div class="col-6">
+                            <div class="portfolio_sample">
+                                <img src="images/app dev/modulelist.PNG" alt="" />
+                                <div class="portfolio_btn text-center">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal5">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add more Portfolio Samples as needed -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modals -->
+
+        <!-- Modal for Portfolio Sample 1 -->
+        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModalLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content port4_main">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <!-- Carousel Column -->
+                            <div class="col">
+                                <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <!-- Add multiple carousel items for each image -->
+                                        <div class="carousel-item active">
+                                            <img src="images/app dev/Bill1.png" alt="Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/Bill2.png" alt="Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/Bill3.png" alt="Image 3">
+                                        </div>
+                                        <!-- Add more carousel items as needed -->
+                                    </div>
+                                    <!-- Navigation buttons for the carousel -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+        
+                            <!-- Text Column -->
+                            <div class="col">
+                                <div class="port4_right">
+                                    <h3>Bill Please</h3>
+                                    <h4>A bill splitting app coded with Java</h4>
+                                    <p>Link to work below</p>
+                                    <div class="portfolio_btn port4_btn">
+                                        <a href="https://github.com/estaaaaa/Bill_Please">Github Link</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Modal for Portfolio Sample 2 -->
+        <div class="modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModalLabel2" aria-hidden="true">
+            <!-- Content for Portfolio Sample 2 -->
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content port4_main">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <!-- Carousel Column -->
+                            <div class="col">
+                                <div id="portfolioCarouse2" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <!-- Add multiple carousel items for each image -->
+                                        <div class="carousel-item active">
+                                            <img src="images/app dev/moviereview (1).jpg" alt="Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/moviereview (2).jpg" alt="Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/moviereview (3).jpg" alt="Image 3">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/moviereview (4).jpg" alt="Image 4">
+                                        </div>
+
+                                        <!-- Add more carousel items as needed -->
+                                    </div>
+                                    <!-- Navigation buttons for the carousel -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarouse2" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarouse2" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+        
+                            <!-- Text Column -->
+                            <div class="col">
+                                <div class="port4_right">
+                                    <h3>Movie Review</h3>
+                                    <h4>A movie review website coded with HTML, CSS & PHP</h4>
+                                    <p>Link to work below</p>
+                                    <div class="portfolio_btn port4_btn">
+                                        <a href="">Coming Soon</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Portfolio Sample 3 -->
+        <div class="modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModalLabel3" aria-hidden="true">
+            <!-- Content for Portfolio Sample 3 -->
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content port4_main">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <!-- Carousel Column -->
+                            <div class="col">
+                                <div id="portfolioCarouse3" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <!-- Add multiple carousel items for each image -->
+                                        <div class="carousel-item active">
+                                            <img src="images/app dev/movie1.png" alt="Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/movie2.png" alt="Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/movie3.png" alt="Image 3">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/movie4.png" alt="Image 4">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/movie5.png" alt="Image 5">
+                                        </div>
+
+                                        <!-- Add more carousel items as needed -->
+                                    </div>
+                                    <!-- Navigation buttons for the carousel -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarouse3" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarouse3" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+        
+                            <!-- Text Column -->
+                            <div class="col">
+                                <div class="port4_right">
+                                    <h3>MyMovies</h3>
+                                    <h4>A Movie listing app coded with Java</h4>
+                                    <p>Link to work below</p>
+                                    <div class="portfolio_btn port4_btn">
+                                        <a href="https://github.com/estaaaaa/MyMovies">Github Link</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Modal for Portfolio Sample 4 -->
+        <div class="modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModalLabel4" aria-hidden="true">
+            <!-- Content for Portfolio Sample 4 -->
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content port4_main">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <!-- Carousel Column -->
+                            <div class="col">
+                                <div id="portfolioCarouse4" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <!-- Add multiple carousel items for each image -->
+                                        <div class="carousel-item active">
+                                            <img src="images/app dev/shipping (1).png" alt="Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/shipping (2).png" alt="Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/shipping (3).png" alt="Image 3">
+                                        </div>
+                                        <!-- Add more carousel items as needed -->
+                                    </div>
+                                    <!-- Navigation buttons for the carousel -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarouse4" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarouse4" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+        
+                            <!-- Text Column -->
+                            <div class="col">
+                                <div class="port4_right">
+                                    <h3>Shipping Calculator</h3>
+                                    <h4>A Shipping cost calculator website coded with HTML, CSS & PHP</h4>
+                                    <p>Link to work below</p>
+                                    <div class="portfolio_btn port4_btn">
+                                        <a href="">Coming Soon</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Modal for Portfolio Sample 5 -->
+        <div class="modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModalLabel5" aria-hidden="true">
+            <!-- Content for Portfolio Sample 5 -->
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content port4_main">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <!-- Carousel Column -->
+                            <div class="col">
+                                <div id="portfolioCarouse5" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <!-- Add multiple carousel items for each image -->
+                                        <div class="carousel-item active">
+                                            <img src="images/app dev/modules.png" alt="Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/app dev/modules2.png" alt="Image 2">
+                                        </div>
+                                        
+                                        <!-- Add more carousel items as needed -->
+                                    </div>
+                                    <!-- Navigation buttons for the carousel -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarouse5" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarouse5" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+        
+                            <!-- Text Column -->
+                            <div class="col">
+                                <div class="port4_right">
+                                    <h3>Esta's Modules</h3>
+                                    <h4>A module list of Digital Design and Development</h4>
+                                    <p>Link to work below</p>
+                                    <div class="portfolio_btn port4_btn">
+                                        <a href="https://github.com/estaaaaa/EstasModules">Github Link</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Add more Modals for additional Portfolio Samples as needed -->
+
+        <!-- footer_area start -->
+        <div class="footer_area">
+            <div class="footer_main">
+                <div class="footer_upper">
+                    <div class="footer_left">
+                        <h4>Got more questions?</h4>
+                        <p>
+                            Click <a href="contact.html">here</a> to contact me, <br />
+                            I am always ready to assist you!
+                        </p>
+                    </div>
+                    <div class="footer_right">
+                        <a href="#">
+                            <img src="images/logo.svg" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_bottom">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home </a></li>
+                        <li>-</li>
                         <li><a href="portfolio.html">Portfolio</a></li>
+                        <li>-</li>
                         <li><a href="about.html">About Me</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li>-</li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
+                    <p>Copyright © EstaPuah <br />All Rights Reserved</p>
                 </div>
             </div>
-            <!-- offcanvas end -->
+        </div>
+    </main>
+    <!-- main_wrapper end -->
 
-            <!-- portfolio_area start -->
-            <div class="portfolio_area">
-                <div class="portfolio_main2">
-                    <div class="portfolio_name portname2">
-                        <h3>App <br> Development</h3>
-                    </div>
+    <!-- Main jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
 
-                    <div class="portfolio_projects">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="portfolio_sample">
-                                    <img src="images/portfolio-1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="portfolio_sample">
-                                    <img src="images/portfolio-2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="portfolio_sample portfolio3">
-                                    <img src="images/portfolio-3.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="portfolio_sample">
-                                    <img src="images/portfolio-4.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="portfolio_sample">
-                                    <img src="images/portfolio-5.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="portfolio_sample">
-                                    <img src="images/portfolio-6.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>  
-                    <div class="portfolio_btn text-center">
-                        <a href="portfolio.html">Back</a>
-                    </div>                  
-                </div>
-            </div>
-            <!-- portfolio_area end -->
-
-            <!-- footer_area start -->
-            <div class="footer_area">
-                <div class="footer_main">
-                    <div class="footer_upper">
-                        <div class="footer_left">
-                            <h4>Got more questions?</h4>
-                            <p>Click <a href="contact.html">here</a> to contact me, <br> I am always ready to assist you!</p>
-                        </div>
-                        <div class="footer_right">
-                            <a href="#">
-                                <img src="images/logo.svg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="footer_bottom">
-                        <ul>
-                            <li><a href="index.html">Home </a></li>
-                            <li> - </li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li> - </li>
-                            <li><a href="about.html">About Me</a></li>
-                            <li> - </li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                        <p>Copyright © EstaPuah <br>All Rights Reserved</p>
-                    </div>
-                </div>                
-            </div>
-        </main>
-        <!-- main_wrapper end -->
-
-        <!-- Main jQuery -->
-        <script src="js/jquery-3.4.1.min.js"></script>       
-   
-        <!-- Bootstrap jQuery -->
-        <script src="js/bootstrap.bundle.js"></script>
-        
-    </body>
+    <!-- Bootstrap jQuery -->
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
 </html>
